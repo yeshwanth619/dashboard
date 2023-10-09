@@ -1,0 +1,31 @@
+.metrics{
+    border: 1px solid grey;
+    background-color:rgb(255, 255, 153);
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* width: 80%; */
+    margin-right: 30px;
+    border-radius: 6px;
+    margin-top: 1rem;
+
+}
+.failure{
+    color: red;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.calls{
+    color: rgb(0, 255, 119);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+}
+.users{
+    color: blue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}

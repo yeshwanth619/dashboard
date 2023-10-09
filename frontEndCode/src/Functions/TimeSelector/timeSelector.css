@@ -1,0 +1,82 @@
+
+
+.time-selector {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .option-container,
+  .date-pickers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  
+  .date-picker {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  input[type="text"]{
+    height: 3rem !important;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-right: 15px ;
+
+  }
+  .react-datepicker-wrapper{
+    height: 3rem !important;
+  }
+  .react-datepicker__input-container{
+    border-radius: 6px;
+    height: 3rem !important;
+  }
+  .buttonClr{
+    background-color: gray !important;
+  }
+ 
+.date-picker-container {
+    display: flex;
+    align-items: center;
+ 
+    justify-content: center;
+  }
+  .timeHeader{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  .react-datepicker {
+    z-index: 3;
+
+  }
+  .react-datepicker-popper{
+    z-index: 2;
+  }
+  

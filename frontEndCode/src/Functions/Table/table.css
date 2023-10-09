@@ -1,0 +1,90 @@
+/* Add background color for even and odd rows */
+.even-row {
+    background-color: #f2f2f2; /* Grey background for even rows */
+  }
+  
+  .odd-row {
+    background-color: white; /* White background for odd rows */
+  }
+  
+  /* Add cell borders */
+  .table-cell {
+    border: 1px solid #ddd; /* Grey border for cells */
+  }
+  /* table.css */
+  .log-table-container {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+  }
+  
+  .log-table-header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* You can adjust the background color as needed */
+    z-index: 1; /* Ensure the headers appear above the content */
+  }
+  /* table.css */
+.log-table-container {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+  }
+  
+  .log-table-header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* You can adjust the background color as needed */
+    z-index: 1; /* Ensure the headers appear above the content */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .even-row {
+    background-color: #f2f2f2;
+  }
+  .no-data-message {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100%; /* Ensure it takes the full height of the parent */
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .table-cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis for truncated text */
+  }
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+ 
+  
+  
+  /* Add more styles as needed for your specific design and preferences */
+  

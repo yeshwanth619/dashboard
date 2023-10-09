@@ -1,0 +1,31 @@
+.header{
+    background-color: grey;
+    height:4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .header {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+}
+.dataTitle{
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 400px;
+ 
+}
+.analyticsTitle{
+     font-size: 24px;
+     font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.text-center{
+    margin-bottom: 2rem;
+}
